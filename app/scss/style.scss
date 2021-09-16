@@ -1,0 +1,52 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+.header {
+    &__inner {
+        height: 62px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 32px 168px 56px 178px;
+        background: #F8FFFF;
+    }
+
+    &__btn {
+        height: 62px;
+        width: 187px;
+        background: #F05670;
+        border-radius: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        margin-left: 58px;
+    }
+}
+
+// .logo {
+//     &__img {
+//     }
+// }
+
+.menu {
+    margin-left: 244px;
+
+    &__contact-item {
+        display: inline-block;
+    }
+
+    &__contact-item+&__contact-item {
+        margin-left: 58px;
+    }
+
+    &__contact-box {
+        display: flex;
+        align-items: center;
+    }
+
+    &__contact-phone {
+        margin-left: 16px;
+    }
+}
