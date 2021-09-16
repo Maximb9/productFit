@@ -11,7 +11,7 @@
         justify-content: space-between;
         align-items: center;
         margin: 32px 168px 56px 178px;
-        background: #F8FFFF;
+
     }
 
     &__btn {
@@ -21,14 +21,16 @@
         border-radius: 15px;
         color: #FFFFFF;
         font-size: 14px;
-        margin-left: 58px;
+        border: none;
     }
 }
 
-// .logo {
-//     &__img {
-//     }
-// }
+.logo {
+    &__img {
+        max-height: 58px;
+        max-width: 239px;
+    }
+}
 
 .menu {
     margin-left: 244px;
@@ -48,5 +50,10 @@
 
     &__contact-phone {
         margin-left: 16px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1E959B;
     }
 }
