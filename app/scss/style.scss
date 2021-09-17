@@ -4,13 +4,17 @@
 @import 'libs';
 @import 'global';
 
+
+
+
 .header {
     &__inner {
         height: 62px;
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
         align-items: center;
         margin: 32px 168px 56px 178px;
+        // max-height: 1079px;
 
     }
 
@@ -22,6 +26,7 @@
         color: #FFFFFF;
         font-size: 14px;
         border: none;
+        margin-left: 58px;
     }
 }
 
@@ -55,5 +60,13 @@
         font-size: 16px;
         line-height: 20px;
         color: #1E959B;
+        font-family: "Gilroy-Regular", sans-serif;
+    }
+}
+
+.footer {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
     }
 }
