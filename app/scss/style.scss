@@ -182,7 +182,7 @@
 }
 
 .develop {
-    min-height: 730px;
+    min-height: 630px;
 
     &__inner {
         margin: 0 220px 54px 183px;
@@ -229,5 +229,21 @@
 
     &__image {
         margin-left: 94px;
+    }
+}
+
+.partners {
+    height: 90px;
+    background-color: #1E959B;
+    margin-bottom: 120px;
+
+    &__inner {
+        padding: 18px 132px 18px 141px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
