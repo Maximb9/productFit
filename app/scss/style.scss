@@ -9,14 +9,12 @@
 
 
 .header {
+    padding: 32px 168px 56px 178px;
+
     &__inner {
         height: 62px;
         display: flex;
-        // justify-content: space-between;
         align-items: center;
-        margin: 32px 168px 56px 178px;
-        // max-height: 1079px;
-
     }
 
     &__btn {
@@ -183,9 +181,9 @@
 
 .develop {
     min-height: 630px;
+    padding: 0 220px 54px 183px;
 
     &__inner {
-        margin: 0 220px 54px 183px;
         display: flex;
         align-items: center;
     }
@@ -236,14 +234,21 @@
     height: 90px;
     background-color: #1E959B;
     margin-bottom: 120px;
-
-    &__inner {
-        padding: 18px 132px 18px 141px;
-    }
+    padding: 18px 132px 18px 141px;
 
     &__list {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.plan {
+    padding: 0 132px 0 141px;
+    margin-bottom: 33px;
+
+    &__inner {
+        display: flex;
         justify-content: space-between;
     }
 }
