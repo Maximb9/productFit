@@ -431,3 +431,16 @@
         margin-bottom: 120px;
     }
 }
+
+.banner {
+    min-height: 450px;
+    background-image: url('images/61769.jpg');
+    background-repeat: no-repeat;
+
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 126px 30px 158px;
+    }
+}
