@@ -528,6 +528,7 @@
 .orders {
     height: 736px;
     position: relative;
+    margin-bottom: 120px;
 
     &__boxone {
         position: absolute;
@@ -616,4 +617,33 @@
         cursor: pointer;
     }
 
+}
+
+.request {
+    margin-bottom: 84px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 349px;
+        padding-left: 325px;
+    }
+
+    &__btns {
+        background: #F05670;
+        box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+        border-radius: 20px;
+        padding: 37px 57px 32px 57px;
+        font-family: 'Gilroy-Regular';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        border: none;
+    }
 }
