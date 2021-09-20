@@ -527,27 +527,93 @@
 
 .orders {
     height: 736px;
+    position: relative;
+
+    &__boxone {
+        position: absolute;
+        background-color: #1E959B;
+        height: 154px;
+        width: 100%;
+        top: 83px;
+        left: 0;
+        right: 0;
+    }
+
+    &__boxtwo {
+        position: absolute;
+        background-color: #1E959B;
+        height: 154px;
+        width: 100%;
+        top: 469px;
+        left: 0;
+        right: 0;
+    }
 
     &__inner {
+        padding: 0 68px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        // padding: 0 68px;
+    }
 
-        &::after {
-            content: '';
-            background-color: #1E959B;
-            height: 154px;
-            width: 100%;
-        }
+    &__card {
+        position: relative;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+        box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+        border-radius: 30px;
+        width: 289px;
+        height: 305px;
+        margin-bottom: 83px;
+        display: block;
+        text-align: center;
+        position: relative;
+    }
+
+    &__circle {
+        position: absolute;
+        background-color: #1E959B;
+        height: 182px;
+        width: 182px;
+        border-radius: 50%;
+        top: -43px;
+        left: 51px;
     }
 
     &__image {
-        background: #1E959B;
-        border-radius: 50%;
-        border: none;
-        width: 182px;
-        height: 182px;
         padding: 37px;
     }
+
+    &__title {
+        margin-top: 171px;
+        margin-bottom: 27px;
+        font-family: 'Gilroy-Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #1E959B;
+    }
+
+    &__titlethree {
+        margin-top: 160px;
+        margin-bottom: 7px;
+    }
+
+    &__btn {
+        background: #F05670;
+        box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+        border-radius: 20px;
+        font-family: 'Gilroy-Regular';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+        padding: 23px 66px;
+        cursor: pointer;
+    }
+
 }
