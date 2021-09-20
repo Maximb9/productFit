@@ -441,6 +441,24 @@
     width: 100%;
     margin-bottom: 120px;
 
+    &__slick-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &__slick-arrowleft {
+        left: 49px;
+        border: none;
+        background-color: transparent;
+    }
+
+    &__slick-arrowright {
+        right: 49px;
+        border: none;
+        background-color: transparent;
+    }
+
 
     &__inner {
         display: flex;
