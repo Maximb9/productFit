@@ -647,3 +647,17 @@
         border: none;
     }
 }
+
+.slider {
+    &__inner {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 5px;
+    }
+
+    &__computer-image {
+        width: 780px;
+        height: 487px;
+    }
+}
