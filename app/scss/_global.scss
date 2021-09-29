@@ -1,6 +1,7 @@
 html,
 body {
 	height: 100%;
+	overflow-x: hidden;
 }
 
 .wrapper {
@@ -18,7 +19,7 @@ body {
 }
 
 .container {
-	max-width: 1304x;
+	max-width: 1440x;
 	margin: 0 auto;
 	// padding: 0 15px;
 }
