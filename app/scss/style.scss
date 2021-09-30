@@ -657,6 +657,7 @@
         margin: 0 auto;
         max-width: 780px;
         max-height: 487px;
+
     }
 
     &__slider-btn {
@@ -711,4 +712,38 @@
     .slick-active li button {
         background-color: #1E959B;
     }
+}
+
+.price {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 120px;
+    }
+
+    &__info {
+        max-width: 583px;
+    }
+
+    &__info-title {
+        font-family: 'Gilroy-Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #1E959B;
+        margin-bottom: 27px;
+    }
+
+    &__info-text {
+        font-family: 'Gilroy-Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #3C3C3C;
+        margin-bottom: 25px;
+    }
+
 }
