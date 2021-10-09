@@ -75,12 +75,14 @@
 .footer {
     background: #FFFFFF;
     min-height: 242px;
+    margin: 0 auto;
+
 
     &__inner {
         max-width: 1230px;
         display: flex;
         align-items: center;
-        margin: 0 auto;
+        padding: 44px 5px;
     }
 
     &__link {
@@ -234,23 +236,30 @@
 .partners {
     height: 90px;
     background-color: #1E959B;
-    margin-bottom: 120px;
-    padding: 18px 132px 18px 141px;
+    max-width: 1440px;
+    margin: 0 auto 120px;
+
+    &__inner {
+        padding: 18px 132px 18px 141px;
+    }
 
     &__list {
         display: flex;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
     }
+
+
 }
 
 .plan {
     &__inner-height {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 33px;
-        padding: 0 132px 0 141px;
+        margin: 0 132px 33px 141px;
     }
+
+
 
     &__card {
         display: flex;
