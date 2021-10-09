@@ -180,11 +180,13 @@
 
 .develop {
     min-height: 630px;
-    padding: 0 220px 54px 183px;
+    display: flex;
+    justify-content: center;
 
     &__inner {
         display: flex;
         align-items: center;
+        margin: 0 220px 54px 185px;
     }
 
     &__title {
