@@ -9,7 +9,7 @@
 
 
 .header {
-    padding: 32px 168px 56px 178px;
+    margin: 32px auto 56px;
 
     &__inner {
         height: 62px;
@@ -80,7 +80,7 @@
         max-width: 1230px;
         display: flex;
         align-items: center;
-        margin: 44px 105px 5px;
+        margin: 0 auto;
     }
 
     &__link {
