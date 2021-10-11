@@ -927,3 +927,37 @@
         right: 28px;
     }
 }
+
+.productfit {
+    &__title {
+        text-align: center;
+        font-family: 'Gilroy-Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #1E959B;
+    }
+
+    &__inner {
+        margin: 0 178px 44px 178px;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__card {
+        width: 320px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+        border-radius: 25px;
+        padding: 25px 44px;
+        margin-bottom: 46px;
+    }
+
+    &__card-img {}
+}
