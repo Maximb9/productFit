@@ -21,12 +21,12 @@ $(function() {
     });
 
     $(function () {
-      $(".banner-section__slider").slick({
+      $(".banner-date__info").slick({
         dots: true,
         prevArrow:
-          '<button class="banner-section__slider-btn banner-section__slider-btnprev"><img src="images/prev.svg" alt=""></button>',
+          '<button class="banner-date__info-btn banner-date__info-btnprev"><img src="images/prev.svg" alt=""></button>',
         nextArrow:
-          '<button class="banner-section__slider-btn banner-section__slider-btnnext"><img src="images/next.svg" alt=""></button>',
+          '<button class="banner-date__info-btn banner-date__info-btnnext"><img src="images/next.svg" alt=""></button>',
       });
   });
 });

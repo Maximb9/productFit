@@ -1095,4 +1095,15 @@
         left: 30px;
 
     }
+
+    &__info-btn {
+        // position: absolute;
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        padding: 0;
+        z-index: 5;
+        cursor: pointer;
+        outline: none;
+    }
 }
